@@ -1,0 +1,1472 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mac/ontologies/2020/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mac/ontologies/2020/3/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/mac/ontologies/2020/3/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chinese_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italian_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rainbow_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicinessValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arterial_protection_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#baking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beef_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chicken_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cold_mix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cold_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cooking_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#country_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deep_frying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fish_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hot_veg_salad_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lamb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lamb_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#main"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meat_pasta_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meat_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#namedset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pasta_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pork_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roast_chicken_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#set_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spicy_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#steaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#veg_and_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#veg_pasta_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#veg_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yellow_set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fish&amp;chip_set"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCountryOfOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpiciness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVeg"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isColorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCookingMethodOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCountryOfOriginOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMainOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMeatOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpicinessOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVegOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#England"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chicken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chili"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cucumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eggplant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lettuce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pasta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#potato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweet_corn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomato"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Chinese_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#China"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#English_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#England"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Italian_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#Italy"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SpicinessValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#hot"/>
+            <Class IRI="#medium"/>
+            <Class IRI="#mild"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#beef_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#meat_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMeat"/>
+                <Class IRI="#beef"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#chicken_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#meat_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMeat"/>
+                <Class IRI="#chicken"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#fish_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#meat_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMeat"/>
+                <Class IRI="#fish"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#lamb_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#meat_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMeat"/>
+                <Class IRI="#lamb"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#meat_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#set_meal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#meat"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#pork_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#meat_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMeat"/>
+                <Class IRI="#pork"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#spicy_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#set_meal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSpiciness"/>
+                <ObjectUnionOf>
+                    <Class IRI="#hot"/>
+                    <Class IRI="#medium"/>
+                    <Class IRI="#mild"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#veg_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#set_meal"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#veg_and_fruit"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#yellow_set"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#color_set"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasColor"/>
+                <Class IRI="#yellow"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America"/>
+        <Class IRI="#cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <Class IRI="#cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese_set"/>
+        <Class IRI="#country_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#China"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_set"/>
+        <Class IRI="#country_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#England"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europe"/>
+        <Class IRI="#cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italian_set"/>
+        <Class IRI="#country_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italian_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#Italy"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCookingMethod"/>
+            <ObjectUnionOf>
+                <Class IRI="#boiling"/>
+                <Class IRI="#cold_mix"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#veg_and_fruit"/>
+                <ObjectMinCardinality cardinality="3">
+                    <ObjectProperty IRI="#hasVeg"/>
+                </ObjectMinCardinality>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicinessValuePartition"/>
+        <Class IRI="#ValuePartitions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arterial_protection_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arterial_protection_set"/>
+        <Class IRI="#yellow_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arterial_protection_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCookingMethod"/>
+            <Class IRI="#steaming"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arterial_protection_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMeat"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arterial_protection_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#veg_and_fruit"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#hasColor"/>
+                    <Class IRI="#yellow"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#baking"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beef"/>
+        <Class IRI="#meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beef_set"/>
+        <Class IRI="#meat_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boiling"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicken"/>
+        <Class IRI="#meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicken_set"/>
+        <Class IRI="#meat_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_mix"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCookingMethod"/>
+            <Class IRI="#cold_mix"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#color"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_set"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#veg_and_fruit"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasColor"/>
+                    <Class IRI="#color"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#country_set"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deep_frying"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish"/>
+        <Class IRI="#meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish_set"/>
+        <Class IRI="#meat_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frying"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#green"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot"/>
+        <Class IRI="#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot_veg_salad_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot_veg_salad_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot_veg_salad_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot_veg_salad_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lamb"/>
+        <Class IRI="#meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lamb_set"/>
+        <Class IRI="#meat_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#main"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_pasta_set"/>
+        <Class IRI="#pasta_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_pasta_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_pasta_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_pasta_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasMain"/>
+            <NamedIndividual IRI="#pasta"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_set"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMeat"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meat_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mild"/>
+        <Class IRI="#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#namedset"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pasta_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pasta_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#Italy"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pasta_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasMain"/>
+            <NamedIndividual IRI="#pasta"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pork"/>
+        <Class IRI="#meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pork_set"/>
+        <Class IRI="#meat_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purple"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purple"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#purple"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#red"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCookingMethod"/>
+            <Class IRI="#roasting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#meat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#veg_and_fruit"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasColor"/>
+                    <Class IRI="#green"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMeat"/>
+            <Class IRI="#chicken"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roast_chicken_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#China"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roasting"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smoking"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spicy_set"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spicy_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <ObjectUnionOf>
+                <Class IRI="#hot"/>
+                <Class IRI="#medium"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#steaming"/>
+        <Class IRI="#cooking_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_and_fruit"/>
+        <Class IRI="#ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_and_fruit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#color"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_pasta_set"/>
+        <Class IRI="#pasta_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_pasta_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_pasta_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasMain"/>
+            <NamedIndividual IRI="#pasta"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_set"/>
+        <Class IRI="#set_meal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#veg_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yellow"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yellow"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class IRI="#yellow"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yellow_set"/>
+        <Class IRI="#color_set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yellow_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVeg"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#veg_and_fruit"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#hasColor"/>
+                    <Class IRI="#yellow"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <Class IRI="#namedset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCookingMethod"/>
+            <Class IRI="#frying"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#meat"/>
+                <Class IRI="#veg_and_fruit"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMeat"/>
+            <Class IRI="#fish"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="#England"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fish&amp;chip_set"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasVeg"/>
+            <NamedIndividual IRI="#potato"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Asia"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe"/>
+        <NamedIndividual IRI="#England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chicken"/>
+        <NamedIndividual IRI="#chicken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#roast_chicken_set"/>
+        <NamedIndividual IRI="#chicken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#red"/>
+        <NamedIndividual IRI="#chili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#roast_chicken_set"/>
+        <NamedIndividual IRI="#chili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#chili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fish"/>
+        <NamedIndividual IRI="#cod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fish&amp;chip_set"/>
+        <NamedIndividual IRI="#cod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#green"/>
+        <NamedIndividual IRI="#cucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#cucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#purple"/>
+        <NamedIndividual IRI="#eggplant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#eggplant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rainbow_set"/>
+        <NamedIndividual IRI="#lettuce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#green"/>
+        <NamedIndividual IRI="#lettuce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#roast_chicken_set"/>
+        <NamedIndividual IRI="#lettuce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#lettuce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#main"/>
+        <NamedIndividual IRI="#pasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pasta_set"/>
+        <NamedIndividual IRI="#pasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#yellow"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fish&amp;chip_set"/>
+        <NamedIndividual IRI="#potato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rainbow_set"/>
+        <NamedIndividual IRI="#sweet_corn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#sweet_corn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#yellow"/>
+        <NamedIndividual IRI="#sweet_corn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rainbow_set"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#red"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_and_fruit"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#veg_pasta_set"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMain"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeat"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVeg"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMainOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMeatOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isVegOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#isColorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <ObjectProperty IRI="#isCookingMethodOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCountryOfOrigin"/>
+        <ObjectProperty IRI="#isCountryOfOriginOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMain"/>
+        <ObjectProperty IRI="#isMainOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMeat"/>
+        <ObjectProperty IRI="#isMeatOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <ObjectProperty IRI="#isSpicinessOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasVeg"/>
+        <ObjectProperty IRI="#isVegOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#veg_and_fruit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <Class IRI="#ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCountryOfOrigin"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMain"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeat"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVeg"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#color"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCookingMethodOf"/>
+        <Class IRI="#cooking_method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCountryOfOriginOf"/>
+        <Class IRI="#cuisine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMainOf"/>
+        <Class IRI="#main"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMeatOf"/>
+        <Class IRI="#meat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSpicinessOf"/>
+        <Class IRI="#ValuePartitions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVegOf"/>
+        <Class IRI="#veg_and_fruit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <Class IRI="#cooking_method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCountryOfOrigin"/>
+        <Class IRI="#cuisine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMain"/>
+        <Class IRI="#main"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeat"/>
+        <Class IRI="#meat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <Class IRI="#ValuePartitions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVeg"/>
+        <Class IRI="#veg_and_fruit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isColorOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isColorOf"/>
+            <Class IRI="#veg_and_fruit"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCookingMethodOf"/>
+        <Class IRI="#ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCountryOfOriginOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMainOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMeatOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSpicinessOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVegOf"/>
+        <Class IRI="#set_meal"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Africa</IRI>
+        <Literal>Africa is the world&apos;s second-largest and second-most-populous continent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#America</IRI>
+        <Literal>America, encompass the totality of the continents of North America and South America. Together they make up most of Earth&apos;s western hemisphere and comprise the New World.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asia</IRI>
+        <Literal>Asia is Earth&apos;s largest and most populous continent, located primarily in the eastern and northern hemispheres and sharing the continental landmass of Eurasia with the continent of Europe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Australia</IRI>
+        <Literal>Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian continent, the island of Tasmania and numerous smaller islands. It is the world&apos;s sixth-largest country by total area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#English_set</IRI>
+        <Literal>Set meals originating from England.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Europe</IRI>
+        <Literal>Europe is a continent that comprises the westernmost part of Eurasia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Italian_set</IRI>
+        <Literal>Set meals originating from Italy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rainbow_set</IRI>
+        <Literal>This set contains at least three colors of fruits and vegetables, so it is called rainbow set. Note that there is no meat in this set meal, is suitable for vegetarians.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValuePartitions</IRI>
+        <Literal>Whether the set meal is spicy and spicy level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#arterial_protection_set</IRI>
+        <Literal>Inquiry data can know that yellow fruits and vegetables can protect arterial, especially carrots, so there are a lot of yellow fruits and vegetables in the set meal, there must be carrots, and some meats are also included for nutritional balance. Cooking method of it is using steaming, which can make this set meal more healthy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#baking</IRI>
+        <Literal>Baking is an indispensable step in the production of bread and cake. It refers to the process of dewatering and hardening materials through dry heat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#boiling</IRI>
+        <Literal>Put ingredients in water and boil the water with fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cold_mix</IRI>
+        <Literal>Cold mix refers to a cooking method in which some ingredients are not heated or cooled after heating, and seasonings are added to match the flavor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cold_set</IRI>
+        <Literal>Because the cooking method is cold mix, it is called cold set.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#color</IRI>
+        <Literal>Classification of vegetables and fruits by their color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#country_set</IRI>
+        <Literal>Declare which country the food in the package comes from. Users can also choose the set according to their favorite country.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cuisine</IRI>
+        <Literal>Origin of the set meal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#deep_frying</IRI>
+        <Literal>Deep frying is a cooking method in which food is submerged in hot fat, most commonly oil, rather than the shallow oil used in conventional frying, done in a frying pan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#frying</IRI>
+        <Literal>The process of putting ingredients in oil for heating (the oil level is higher than the height of theingredient) is called frying.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hot_veg_salad_set</IRI>
+        <Literal>A vegetable salad with chili</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ingredient</IRI>
+        <Literal>Ingredient, main ingredient used to prepare a special food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#main</IRI>
+        <Literal>The main food in the set meal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#meat</IRI>
+        <Literal>Meat, in this ontology it means all animal meat include fish.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#meat_set</IRI>
+        <Literal>Food set includes meat but is not limited to meat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#namedset</IRI>
+        <Literal>Name of the food sets, users can use the name to order directly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pasta_set</IRI>
+        <Literal>The set meals in this class must have pasta as main.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#roast_chicken_set</IRI>
+        <Literal>This set meal includes roast chicken so it is called roast chicken set meal. Roast chicken: Put a whole chicken in the oven and roast the surface to golden brown and add the sauce. This meal set also include some green vegetables and it taste madium hot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#roasting</IRI>
+        <Literal>Put the processed or pickled ingredients inside grill, and use heat radiation generated by the open flame, dark flame, etc. to heat. After roast ingredients are roasted, the surface water is dispersed, so the ingredient have a crisp surface and a burnt taste.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#set_meal</IRI>
+        <Literal>Food set, choose some ingredients and use different cooking techniques to make different food set to meet the different needs of users.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#smoking</IRI>
+        <Literal>Smoked is a cooking method that make ingredients mature and absorbs special aromas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#spicy_set</IRI>
+        <Literal>Food sets have spicy flavor, and users who like spicy food can choose any one in this class, they all can meet you requirement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#steaming</IRI>
+        <Literal>Use the heat of water vapor to cook ingredients.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#veg_pasta_set</IRI>
+        <Literal>Pasta as main food, with a sauce suitable for vegetarians, and finally with some boiled vegetarian dishes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#veg_set</IRI>
+        <Literal>Food sets made of only vegetables and fruits which can meet the requirements of vegetarians.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fish&amp;chip_set</IRI>
+        <Literal>This is a very famous set meal originating from the United Kingdom. The cod fish is wrapped in a batter and fried golden brown and served with French fries.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
